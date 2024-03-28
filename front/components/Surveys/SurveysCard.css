@@ -1,0 +1,76 @@
+.SurveysCard_main{
+    box-sizing: border-box;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    float: left;
+    width: 228px;
+    height: 300px;
+    background: #D9D9D9;
+    border: 5px solid #45A49E;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.SurveysCard_main:hover{
+    transform:  scale(1.2);
+}
+
+
+.SurveysCard_p1{
+    margin-top: 5px;
+    height: 210px;
+    align-items: center;
+    text-align: center;
+    font-style: normal;
+    font-weight: 650;
+    font-size: 30px;
+    vertical-align: center;
+    color: #0B0C10;
+    hyphens: auto;
+    /*overflow-wrap: break-word; !*Если слово оч длинное, рвем его*!*/
+    display: -webkit-box; /*если текс не помещается, то не дописываем его*/
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.SurveysCard_p2{
+    height: auto;
+    align-items: center;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-max-size: 40px;
+    vertical-align: center;
+    hyphens: auto;
+    /*overflow-wrap: break-word; !*Если слово оч длинное, рвем его*!*/
+    display: -webkit-box; /*если текс не помещается, то не дописываем его*/
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: #0B0C10;
+}
+
+.SurveysCard_pСр{
+    margin-bottom: 0;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    vertical-align: center;
+    color: #D9D9D9;
+}
+
+.SurveysCard_notify{
+    margin-left: 200px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #FB9B43;
+    position: fixed;
+}
+
+

@@ -1,0 +1,43 @@
+.User_main{
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+    color: #D9D9D9;
+}
+.UserAddButton{
+    box-sizing: border-box;
+    margin-left: 30px;
+    margin-top: 19px;
+    float: left;
+    width: 152px;
+    height: 200px;
+    background: #0B0C10;
+    border: 3px solid #1F2833;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.UserAddButton:hover{
+    transform:  scale(1.2);
+}
+
+.UserAddButton_p{
+    height: 100%;
+    weight: 100%;
+    margin-top: 16%;
+    font-style: normal;
+    font-size: 100px;
+    vertical-align: middle;
+    text-align: center;
+    color: #D9D9D9;
+}
+
+.UserFilterSelect{
+    width: 10%;
+    font-size: 25px;
+    padding-inline: 0.7%;
+    margin: 8px 1%;
+    box-sizing: border-box;
+    border-radius: 15px;
+    cursor: pointer;
+}

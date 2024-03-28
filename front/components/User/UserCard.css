@@ -1,0 +1,65 @@
+.UserCard_main{
+    box-sizing: border-box;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    float: left;
+    width: 190px;
+    height: 250px;
+    background: #D9D9D9;
+    border: 5px solid #45A49E;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.UserCard_main:hover{
+    transform:  scale(1.2);
+}
+
+/*при наведении на div изменить цвет UserCard_pСр */
+.UserCard_main:hover .UserCard_pСр{
+    color: #818181;
+}
+
+.UserCard_p1{
+    margin-top: 5px;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    font-style: normal;
+    font-weight: 650;
+    font-size: 30px;
+    vertical-align: center;
+    color: #0B0C10;
+    display: -webkit-box; /*если текс не помещается, то не дописываем его*/
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    hyphens: auto;
+    /*overflow-wrap: break-word; !*Если слово оч длинное, рвем его*!*/
+}
+
+.UserCard_p2{
+    margin-top: 0;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    vertical-align: center;
+    color: #0B0C10;
+}
+
+.UserCard_pСр{
+    margin-bottom: 0;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    vertical-align: center;
+    color: #D9D9D9;
+}
+
+

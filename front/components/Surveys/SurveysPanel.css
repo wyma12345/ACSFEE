@@ -1,0 +1,129 @@
+.SurveysPanel_main{
+    width: 25%;
+    height: 100%;
+    padding: 5px;
+    color: #D9D9D9;
+    font-size: 20px;
+    float: right;
+    border-left: 1px solid #45A49E;
+    text-align: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.SurveysPanel_main::-webkit-scrollbar{
+    width: 0;
+}
+
+.SurveysPanel_input{
+    width: 100%;
+    font-size: 20px;
+    padding-left: 0.7%;
+    padding-right: 0.7%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin: 8px 1%;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.SurveysPanel_inputText{
+
+    width: 65%;
+    height: 100px;
+    font-size: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 0.7%;
+    padding-right: 0.7%;
+    margin: 8px 1%;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-color: #D9D9D9;
+    color: #0B0C10;
+}
+
+.SurveysPanel_select{
+    width: 20%;
+    font-size: 20px;
+    padding: 0.15%;
+    padding-left: 0.7%;
+    margin: 8px 1%;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.SurveysPanel_button{
+    float: right;
+    font-size: 25px;
+    padding-inline: 0.7%;
+    margin: 8px 1%;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-color: #45A49E;
+    cursor: pointer;
+}
+
+.SurveysPanel_button:hover{
+    transform:  scale(0.95);
+}
+
+.DeleteSurveysPanel_button{
+    font-size: 25px;
+    padding-inline: 0.7%;
+    margin: 8px 1%;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-color: #a44545;
+    cursor: pointer;
+    float: right;
+
+}
+.DeleteSurveysPanel_button:hover{
+    transform:  scale(0.95);
+}
+
+.p_error{
+    text-align: center;
+    color: #a44545;
+    font-size: 40px;
+}
+
+.CvForm_main{
+    width: 90%;
+    text-align: center;
+}
+
+.AddCv_button{
+    font-size: 25px;
+    border-radius: 15px;
+    background-color: #818181;
+    cursor: pointer;
+}
+
+.appButtonA{
+    width: 44%;
+    border-left: 2px solid #818181;
+    border-top: 2px solid #818181;
+    border-right: 2px solid #818181;
+    float: left;
+    cursor: pointer;
+}
+
+.appButton{
+    float: left;
+    width: 44%;
+    border: 2px solid #818181;
+    cursor: pointer;
+}
+
+.appButtonDelete{
+    float: left;
+    width: 9%;
+    border: 2px solid #818181;
+    background-color: #fb5243;
+    cursor: pointer;
+}
+
+.Answer{
+    width: 100%;
+    clear: both;
+}
